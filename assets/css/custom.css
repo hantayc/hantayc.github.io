@@ -79,7 +79,12 @@ body.home .page__inner-wrap {
 /* Hide the site title in the top masthead (Minimal Mistakes variants) */
 /* Reduce masthead height when no title/nav is present */
 .masthead {
-  min-height: 44px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.masthead__inner-wrap {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  min-height: 44px !important;
 }
