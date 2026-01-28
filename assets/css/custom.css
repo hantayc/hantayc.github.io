@@ -75,7 +75,12 @@ body.home .page__inner-wrap {
   margin-top: 0 !important;
 }
 
-/* Hide site title text in the masthead */
+/* Hide site title in the top masthead (keep sidebar name) */
+.masthead__menu-item--lg,
 .masthead__title {
-  display: none;
+  display: none !important;
+}
+
+.masthead {
+  min-height: 48px;
 }
