@@ -1,5 +1,17 @@
-title: Taylor Han 
-logo: assets/images/headshot.png
-description: Personal Portfolio of Taylor Han
-show_downloads: true
-theme: minimal-mistakes
+title: Taylor Han
+description: Data Scientist • NLP/GenAI • Forecasting • Experimentation
+theme: minima
+
+markdown: kramdown
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
