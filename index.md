@@ -7,7 +7,6 @@ header:
   show_title: false
 classes: home
 ---
-
 ### Data Scientist · NLP / GenAI · Forecasting · Experimentation
 
 I build practical ML systems and analytics products end-to-end — from data pipelines and modeling to deployment and decision support.
