@@ -74,3 +74,8 @@ body.home .page__inner-wrap {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
+
+/* Hide site title in the top masthead (homepage + all pages) */
+.masthead__menu-item--lg {
+  display: none;
+}
