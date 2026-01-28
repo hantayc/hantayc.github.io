@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Taylor Han
+title: 
 permalink: /
 author_profile: true
 header:
