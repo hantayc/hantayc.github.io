@@ -53,3 +53,24 @@ body.home .page__content {
   padding-top: 0;
   margin-top: 0;
 }
+
+/* Homepage: pull content up closer to the top border */
+body.home .initial-content {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body.home #main {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body.home .page {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+body.home .page__inner-wrap {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
