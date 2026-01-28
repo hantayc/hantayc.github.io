@@ -76,11 +76,12 @@ body.home .page__inner-wrap {
 }
 
 /* Hide site title in the top masthead (keep sidebar name) */
+/* Hide the site title in the top masthead (Minimal Mistakes variants) */
 .masthead__menu-item--lg,
-.masthead__title {
+.masthead__title,
+.masthead .site-title,
+.greedy-nav .site-title,
+.greedy-nav a.site-title,
+a.site-title {
   display: none !important;
-}
-
-.masthead {
-  min-height: 48px;
 }
