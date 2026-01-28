@@ -3,6 +3,8 @@ layout: single
 title: Taylor Han
 permalink: /
 author_profile: true
+header:
+ show_title: false
 ---
 
 ### Data Scientist · NLP / GenAI · Forecasting · Experimentation
@@ -13,8 +15,6 @@ I’m especially interested in:
 - applied NLP & GenAI systems
 - forecasting and time-series modeling
 - experimentation and causal analysis
-
-[Projects](/projects/) · [Resume](/resume/) · [GitHub](https://github.com/hantayc) · [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
 
 ---
 

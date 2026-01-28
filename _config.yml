@@ -26,7 +26,24 @@ minimal_mistakes_skin: "dark"
 author:
   name: "Taylor Han"
   avatar: "/assets/images/headshot.png"
-  bio: "NLP/GenAI • Forecasting • Experimentation"
+  bio: "NLP / GenAI · Forecasting · Experimentation"
+
+  links:
+    - label: "Projects"
+      icon: "fas fa-folder-open"
+      url: "/projects/"
+
+    - label: "Resume"
+      icon: "fas fa-file-alt"
+      url: "/resume/"
+
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/hantayc"
+
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/taylor-han"
 
 # Footer links (can add LinkedIn, resume, etc. later)
 footer:

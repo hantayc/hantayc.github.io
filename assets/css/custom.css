@@ -18,3 +18,28 @@
 .page__content code {
   font-size: 0.88em;
 }
+
+/* Homepage icon links */
+.homepage-links {
+  display: flex;
+  gap: 1.25rem;
+  margin: 1.2rem 0 1.6rem 0;
+  flex-wrap: wrap;
+}
+
+.homepage-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  color: #9dd6d8;              /* matches MM dark accent nicely */
+  text-decoration: none;
+}
+
+.homepage-links a:hover {
+  color: #ffffff;
+}
+
+.homepage-links i {
+  font-size: 1.05rem;
+}
