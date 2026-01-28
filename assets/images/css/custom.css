@@ -1,0 +1,20 @@
+/* --- Main content only (leave sidebar/author profile alone) --- */
+
+/* Shrink overall body content */
+.page__content {
+  font-size: 0.92rem;   /* try 0.90–0.95 */
+  line-height: 1.55;
+}
+
+/* Headings in the main content area */
+.page__content h1 { font-size: 1.85rem; }
+.page__content h2 { font-size: 1.45rem; }
+.page__content h3 { font-size: 1.20rem; }
+.page__content h4 { font-size: 1.05rem; }
+
+/* Lists + code blocks usually feel huge on MM */
+.page__content li { margin-bottom: 0.35rem; }
+.page__content pre,
+.page__content code {
+  font-size: 0.88em;
+}
