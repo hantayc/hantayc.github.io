@@ -1,13 +1,20 @@
 ---
-layout: page
+layout: single
 title: Taylor Han
 permalink: /
+author_profile: true
 ---
 
-### Data Scientist (NLP/GenAI • Forecasting • Experimentation)
-I build practical ML systems and analytics products—end to end—from data pipelines to deployment.
+### Data Scientist · NLP / GenAI · Forecasting · Experimentation
 
-**Links:** [Projects](/projects/) · [Resume](/resume/) · [GitHub](https://github.com/<yourhandle>) · [LinkedIn](https://linkedin.com/in/<yourhandle>)
+I build practical ML systems and analytics products end-to-end — from data pipelines and modeling to deployment and decision support.
+
+I’m especially interested in:
+- applied NLP & GenAI systems
+- forecasting and time-series modeling
+- experimentation and causal analysis
+
+[Projects](/projects/) · [Resume](/resume/) · [GitHub](https://github.com/hantayc) · [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
 
 ---
 

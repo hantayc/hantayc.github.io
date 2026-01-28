@@ -1,17 +1,62 @@
+# Site basics
 title: Taylor Han
 description: Data Scientist • NLP/GenAI • Forecasting • Experimentation
-theme: minima
 
+# Required for proper link + asset resolution on GitHub Pages
+# This is a user site (not a project site), so baseurl stays empty
+url: "https://hantayc.github.io"
+baseurl: ""
+
+# Theme setup (Minimal Mistakes via remote theme)
+remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins required by the theme
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Markdown processor
 markdown: kramdown
 
+# Theme appearance
+# Using dark for now — easy to swap later
+minimal_mistakes_skin: "dark"
+
+# Author info used in the sidebar / profile section
+author:
+  name: "Taylor Han"
+  avatar: "/assets/images/headshot.png"
+  bio: "NLP/GenAI • Forecasting • Experimentation"
+
+# Footer links (can add LinkedIn, resume, etc. later)
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/hantayc"
+
+# Custom content collections
+# Each project lives in _projects/ and renders as its own page
 collections:
   projects:
     output: true
     permalink: /projects/:name/
 
+# Default layout behavior
 defaults:
+  # Standard pages (home, resume, projects index, etc.)
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: true
+
+  # Individual project pages
   - scope:
       path: ""
       type: "projects"
     values:
-      layout: project
+      layout: single
+      author_profile: false
+      classes: wide
