@@ -4,7 +4,8 @@ title: Taylor Han
 permalink: /
 author_profile: true
 header:
- show_title: false
+  show_title: false
+classes: home
 ---
 
 ### Data Scientist · NLP / GenAI · Forecasting · Experimentation
