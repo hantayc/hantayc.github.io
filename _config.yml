@@ -36,7 +36,7 @@ author:
 
     - label: "Resume"
       icon: "fas fa-file-alt"
-      url: "/resume/"
+      url: "/assets/files/taylor_han_resume.pdf/"
 
     - label: "GitHub"
       icon: "fab fa-github"
