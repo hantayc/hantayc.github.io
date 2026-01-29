@@ -86,6 +86,7 @@ img[alt*="Taylor"] {
 
 .author__avatar img {
   border-radius: 50% !important;
+  transform: rotate(90deg);
 }
 
 /* ------------------------------------------------------- */
