@@ -5,26 +5,36 @@ permalink: /projects/
 author_profile: false
 ---
 
-{% comment %}
-Projects index page.
-This pulls from the _projects collection and lists everything in reverse
-chronological order so newer work shows up first.
-{% endcomment %}
-
 {% assign items = site.projects | sort: "date" | reverse %}
 
+<ul class="projects-grid">
 {% for p in items %}
-### [{{ p.title }}]({{ p.url }})
+  <li class="projects-item">
+    <a class="projects-thumb" href="{{ p.url | relative_url }}">
+      {% if p.thumbnail %}
+        <img src="{{ p.thumbnail | relative_url }}" alt="{{ p.title }} thumbnail">
+      {% else %}
+        <div class="projects-thumb-fallback" aria-hidden="true"></div>
+      {% endif %}
+    </a>
 
-{% if p.subtitle %}
-{{ p.subtitle }}
-{% endif %}
+    <div class="projects-body">
+      <h3 class="projects-title">
+        <a href="{{ p.url | relative_url }}">{{ p.title }}</a>
+      </h3>
 
-{% if p.tags %}
-{% for tag in p.tags %}
-<span class="badge badge--primary">{{ tag }}</span>
+      {% if p.subtitle %}
+        <p class="projects-subtitle">{{ p.subtitle }}</p>
+      {% endif %}
+
+      {% if p.tags %}
+        <p class="projects-tags">
+          {% for tag in p.tags %}
+            <span class="badge badge--primary">{{ tag }}</span>
+          {% endfor %}
+        </p>
+      {% endif %}
+    </div>
+  </li>
 {% endfor %}
-{% endif %}
-
----
-{% endfor %}
+</ul>

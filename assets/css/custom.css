@@ -98,3 +98,55 @@ img[alt*="Taylor"] {
   object-fit: cover;
   border-radius: 50%;
 }
+
+/* Project list with square thumbnails */
+.project-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.project-item {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 14px;
+  align-items: start;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.project-thumb img,
+.project-thumb-fallback {
+  width: 72px;
+  height: 72px;
+  border-radius: 10px;     /* rounded square */
+  object-fit: cover;        /* crops to square nicely */
+  display: block;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.10);
+}
+
+.project-title {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-subtitle {
+  opacity: 0.85;
+  margin-top: 4px;
+}
+
+.project-tags {
+  margin-top: 8px;
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.project-tags .tag {
+  font-size: 12px;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.14);
+  opacity: 0.9;
+}

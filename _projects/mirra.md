@@ -3,6 +3,7 @@ title: MIRRA — Resume & Role Alignment
 subtitle: FAISS + SentenceTransformers pipeline for fast resume-to-role matching.
 date: 2025-05-01
 tags: [NLP, GenAI, RAG, FAISS]
+thumnail: /assets/images/projects/mirra.png
 
 # header:
 #   image: /assets/images/projects/mirra-banner.png
