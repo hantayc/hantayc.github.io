@@ -81,6 +81,24 @@ img[alt*="Taylor"] {
 
 /* Use theme defaults for avatar styling (no overrides) */
 
+/* Make avatar larger (responsive) */
+.author__avatar img {
+  max-width: 220px !important;
+  width: 220px !important;
+  height: 220px !important;
+  padding: 5px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
+@media (min-width: 64em) {
+  .author__avatar img {
+    max-width: 260px !important;
+    width: 260px !important;
+    height: 260px !important;
+  }
+}
+
 /* ------------------------------------------------------- */
 /* Projects list with square thumbnails (matches projects-* classes) */
 /* ------------------------------------------------------- */
