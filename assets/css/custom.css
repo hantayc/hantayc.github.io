@@ -2,15 +2,15 @@
 
 /* Shrink overall body content */
 .page__content {
-  font-size: 0.70rem;   /* try 0.90–0.95 */
+  font-size: 0.70rem;  
   line-height: 1.55;
 }
 
 /* Headings in the main content area */
-.page__content h1 { font-size: 1.85rem; }
-.page__content h2 { font-size: 1.45rem; }
-.page__content h3 { font-size: 1.20rem; }
-.page__content h4 { font-size: 1.05rem; }
+.page__content h1 { font-size: 1.10rem; }
+.page__content h2 { font-size: 1.00rem; }
+.page__content h3 { font-size: 0.90rem; }
+.page__content h4 { font-size: 0.80rem; }
 
 /* Lists + code blocks usually feel huge on MM */
 .page__content li { margin-bottom: 0.35rem; }
