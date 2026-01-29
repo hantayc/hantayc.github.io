@@ -2,15 +2,5 @@
 layout: page
 title: Resume
 permalink: /resume/
+redirect_to: /assets/files/taylor_han_resume.pdf
 ---
-
-## Experience
-{% for job in site.data.experience %}
-### {{ job.title }} — {{ job.company }}
-**{{ job.dates }}**
-
-{% for b in job.bullets %}
-- {{ b }}
-{% endfor %}
-
-{% endfor %}
