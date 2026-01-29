@@ -79,22 +79,6 @@ img[alt*="Taylor"] {
 }
 */
 
-/* Make avatar circular - minimal styling */
-.author__avatar {
-  border-radius: 50% !important;
-  width: 160px !important;
-  height: 160px !important;
-  overflow: hidden !important;
-}
-
-.author__avatar img {
-  width: 100% !important;
-  height: 100% !important;
-  border-radius: 50% !important;
-  object-fit: cover !important;
-  display: block !important;
-}
-
 /* ------------------------------------------------------- */
 /* Projects list with square thumbnails (matches projects-* classes) */
 /* ------------------------------------------------------- */
