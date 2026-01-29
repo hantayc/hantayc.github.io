@@ -86,13 +86,16 @@ img[alt*="Taylor"] {
   border-radius: 50% !important;
   overflow: hidden !important;
   flex-shrink: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
 }
 
 .author__avatar img {
-  width: 160px !important;
-  height: 160px !important;
-  border-radius: 50% !important;
+  width: 100% !important;
+  height: 100% !important;
   object-fit: cover !important;
+  object-position: center !important;
 }
 
 /* ------------------------------------------------------- */
