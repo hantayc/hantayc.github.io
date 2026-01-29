@@ -79,6 +79,22 @@ img[alt*="Taylor"] {
 }
 */
 
+/* Force avatar to be a perfect circle */
+.author__avatar {
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  flex-shrink: 0 !important;
+}
+
+.author__avatar img {
+  width: 160px !important;
+  height: 160px !important;
+  border-radius: 50% !important;
+  object-fit: cover !important;
+}
+
 /* ------------------------------------------------------- */
 /* Projects list with square thumbnails (matches projects-* classes) */
 /* ------------------------------------------------------- */
