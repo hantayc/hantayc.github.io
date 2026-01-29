@@ -9,13 +9,9 @@ classes: home
 ---
 ### Data Scientist · NLP / GenAI · Forecasting · Experimentation
 
-I build practical ML systems and analytics products end-to-end — from data pipelines and modeling to deployment and decision support.
+I’m a data scientist with an M.S. in Information and Data Science from UC Berkeley and over five years of experience making decisions with data across consulting and financial services. I began my career in pharmaceuticals, supporting four enterprise clients — including two Fortune 100 companies and a top-35 global pharmaceutical firm — before moving into digital, CX and operational analytics at AIG and later Corebridge Financial following the rebrand of its Individual Retirement and Life businesses.
 
-I’m especially interested in:
-- applied NLP & GenAI systems
-- forecasting and time-series modeling
-- experimentation and causal analysis
-
+My work at Berkeley and professionally spans applied NLP & GenAI, time-series forecasting, and causal experimentation — from problem framing and modeling to deployment and executive-level decision support. I’ve led initiatives that reversed double-digit CSAT declines, improved capacity planning through predictive forecasting, and delivered six-figure cost savings through automation.
 ---
 ### Featured Projects
 
