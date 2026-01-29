@@ -2,7 +2,7 @@
 
 /* Shrink overall body content */
 .page__content {
-  font-size: 0.70rem;  
+  font-size: 0.70rem;
   line-height: 1.55;
 }
 
@@ -32,22 +32,15 @@
   align-items: center;
   gap: 0.4rem;
   font-size: 0.9rem;
-  color: #9dd6d8;              /* matches MM dark accent nicely */
+  color: #9dd6d8;
   text-decoration: none;
 }
 
-.homepage-links a:hover {
-  color: #ffffff;
-}
-
-.homepage-links i {
-  font-size: 1.05rem;
-}
+.homepage-links a:hover { color: #ffffff; }
+.homepage-links i { font-size: 1.05rem; }
 
 /* Remove top title spacing on homepage only */
-body.home .page__title {
-  display: none;
-}
+body.home .page__title { display: none; }
 
 body.home .page__content {
   padding-top: 0;
@@ -55,28 +48,14 @@ body.home .page__content {
 }
 
 /* Homepage: pull content up closer to the top border */
-body.home .initial-content {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-body.home #main {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
-body.home .page {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
-}
-
+body.home .initial-content,
+body.home #main,
+body.home .page,
 body.home .page__inner-wrap {
   padding-top: 0 !important;
   margin-top: 0 !important;
 }
 
-/* Hide site title in the top masthead (keep sidebar name) */
-/* Hide the site title in the top masthead (Minimal Mistakes variants) */
 /* Reduce masthead height when no title/nav is present */
 .masthead {
   padding-top: 0 !important;
@@ -89,7 +68,7 @@ body.home .page__inner-wrap {
   min-height: 44px !important;
 }
 
-/* Headshot sizing */
+/* Headshot sizing (DO NOT use broad image selectors)
 .profile-pic,
 .avatar,
 img[alt*="Taylor"] {
@@ -98,55 +77,54 @@ img[alt*="Taylor"] {
   object-fit: cover;
   border-radius: 50%;
 }
+*/
 
-/* Project list with square thumbnails */
-.project-list {
+/* Fix author avatar shape in Minimal Mistakes */
+.author__avatar img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ------------------------------------------------------- */
+/* Projects list with square thumbnails (matches projects-* classes) */
+/* ------------------------------------------------------- */
+
+.projects-grid {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
 
-.project-item {
+.projects-item {
   display: grid;
-  grid-template-columns: 72px 1fr;
-  gap: 14px;
+  grid-template-columns: 84px 1fr;
+  gap: 16px;
   align-items: start;
-  padding: 12px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
-.project-thumb img,
-.project-thumb-fallback {
-  width: 72px;
-  height: 72px;
-  border-radius: 10px;     /* rounded square */
-  object-fit: cover;        /* crops to square nicely */
+.projects-thumb img,
+.projects-thumb-fallback {
+  width: 84px;
+  height: 84px;
+  border-radius: 12px;      /* rounded square */
+  object-fit: cover;         /* crop to square */
   display: block;
-  background: rgba(255,255,255,0.06);
-  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.10);
 }
 
-.project-title {
-  font-weight: 600;
-  text-decoration: none;
+.projects-title { margin: 0; }
+.projects-title a { text-decoration: none; font-weight: 600; }
+
+.projects-subtitle {
+  margin: 6px 0 0 0;
+  opacity: 0.90;
 }
 
-.project-subtitle {
-  opacity: 0.85;
-  margin-top: 4px;
-}
-
-.project-tags {
-  margin-top: 8px;
-  display: flex;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-
-.project-tags .tag {
-  font-size: 12px;
-  padding: 2px 8px;
-  border-radius: 999px;
-  border: 1px solid rgba(255,255,255,0.14);
-  opacity: 0.9;
+.projects-tags {
+  margin: 10px 0 0 0;
 }
