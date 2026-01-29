@@ -46,6 +46,10 @@ author:
       icon: "fab fa-linkedin"
       url: "https://linkedin.com/in/taylor-han"
 
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:hantaylorc@gmail.com"
+
 # Footer links (can add LinkedIn, resume, etc. later)
 footer:
   links:
