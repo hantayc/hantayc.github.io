@@ -20,6 +20,8 @@ links:
     url: "https://www.youtube.com/watch?v=4Nf8LLRe0IM&embeds_referring_euri=https%3A%2F%2Fwww.ischool.berkeley.edu%2F&source_ve_path=MjM4NTE&themeRefresh=1"
 ---
 
+[📂 View on GitHub](https://github.com/hantayc/mirra_matcher){: .btn .btn--primary} [🎓 Berkeley iSchool](https://www.ischool.berkeley.edu/projects/2025/mirra-matching-intelligence-resume-role-alignment){: .btn .btn--info} [▶️ Demo Video](https://www.youtube.com/watch?v=4Nf8LLRe0IM&embeds_referring_euri=https%3A%2F%2Fwww.ischool.berkeley.edu%2F&source_ve_path=MjM4NTE&themeRefresh=1){: .btn .btn--success}
+
 ## Problem & Motivation
 
 Job search remains overwhelmingly inefficient. The average job seeker in the U.S. spends ~6 months searching, often sifting through thousands of irrelevant postings. Despite AI integration in platforms like LinkedIn and Indeed, most systems provide case-by-case assessments without offering a **quantifiable, consistent metric** that clearly indicates how well a candidate fits a role.
