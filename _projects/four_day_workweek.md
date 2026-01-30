@@ -4,12 +4,7 @@ subtitle: A randomized experiment quantifying how employees trade salary for a f
 date: 2025-07-23
 tags: [Causal Inference, Experimental Design, Power Analysis, Regression, R, ggplot2, Power Analysis, Linear Methods, Qualtrics]
 thumbnail: /assets/images/projects/four_day_workweek_thumbnail.png
-header:
-  image: ""
-  caption: ""
 ---
-
-# Effects of a Four-Day Workweek on Salary Expectations
 
 [📂 See the paper](/assets/files/causal_effect_salary_expectations.pdf){: .btn .btn--primary}
 
