@@ -10,11 +10,14 @@ header:
 
 links:
   - label: GitHub
-    url: https://github.com/hantayc/mirra_matcher
+    icon: "fab fa-github"
+    url: "https://github.com/hantayc/mirra_matcher"
   - label: Berkeley iSchool Project
-    url: https://www.ischool.berkeley.edu/projects/2025/mirra-matching-intelligence-resume-role-alignment
+    icon: "fas fa-university"
+    url: "https://www.ischool.berkeley.edu/projects/2025/mirra-matching-intelligence-resume-role-alignment"
   - label: Demo
-    url: https://www.youtube.com/watch?v=4Nf8LLRe0IM&embeds_referring_euri=https%3A%2F%2Fwww.ischool.berkeley.edu%2F&source_ve_path=MjM4NTE&themeRefresh=1
+    icon: "fas fa-play-circle"
+    url: "https://www.youtube.com/watch?v=4Nf8LLRe0IM&embeds_referring_euri=https%3A%2F%2Fwww.ischool.berkeley.edu%2F&source_ve_path=MjM4NTE&themeRefresh=1"
 ---
 
 ## Problem & Motivation
