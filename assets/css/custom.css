@@ -139,6 +139,24 @@ img[alt*="Taylor"] {
 
 .projects-tags {
   margin: 10px 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.projects-tags a {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border: 1px solid #9dd6d8;
+  border-radius: 4px;
+  background-color: rgba(157, 214, 216, 0.1);
+  font-size: 0.85rem;
+  color: #9dd6d8 !important;
+  text-decoration: none !important;
+}
+
+.projects-tags a:hover {
+  background-color: rgba(157, 214, 216, 0.2);
 }
 
 /* Style tags with boxes */
