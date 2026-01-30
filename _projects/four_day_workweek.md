@@ -5,7 +5,7 @@ date: 2025-07-23
 tags: [Causal Inference, Experimental Design, Power Analysis, Regression, R, ggplot2, Power Analysis, Linear Methods, Qualtrics]
 thumbnail: /assets/images/projects/four_day_workweek_thumbnail.png
 header:
-  image: /assets/images/projects/four_day_workweek_banner.png
+  image: ""
   caption: ""
 ---
 
