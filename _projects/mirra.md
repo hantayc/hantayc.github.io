@@ -1,7 +1,7 @@
 ---
 title: MIRRA — Resume & Role Alignment
 subtitle: AI-powered job matching system using semantic embeddings and structured feature extraction.
-date: 2025-05-01
+date: 2026-01-20
 tags: [NLP, LLMs, Semantic Search, ML Systems]
 thumbnail: /assets/images/projects/mirra.png
 header:

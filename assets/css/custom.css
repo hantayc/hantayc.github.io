@@ -140,3 +140,17 @@ img[alt*="Taylor"] {
 .projects-tags {
   margin: 10px 0 0 0;
 }
+
+/* Style tags with boxes */
+.page__meta .page__taxonomy-item,
+.tag-box {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  margin: 0.3rem 0.4rem 0.3rem 0;
+  border: 1px solid #9dd6d8;
+  border-radius: 4px;
+  background-color: rgba(157, 214, 216, 0.1);
+  font-size: 0.85rem;
+  color: #9dd6d8;
+  text-decoration: none !important;
+}
