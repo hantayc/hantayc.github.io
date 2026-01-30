@@ -89,7 +89,7 @@ Where:
 - $\text{Treatment}_i$ = indicator for four-day workweek  
 - $\beta$ = causal effect of interest  
 
-Under random assignment, \(\beta\) consistently estimates the ATE without additional covariate adjustment.
+Under random assignment, $\beta$ consistently estimates the ATE without additional covariate adjustment.
 
 ---
 
