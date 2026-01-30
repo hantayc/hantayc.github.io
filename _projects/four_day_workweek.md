@@ -82,14 +82,12 @@ No covariates were statistically significant predictors of treatment assignment 
 
 We estimate the **Average Treatment Effect (ATE)** using a reduced-form linear regression:
 
-\[
-Y_i = \alpha + \beta \cdot \text{Treatment}_i
-\]
+$$Y_i = \alpha + \beta \cdot \text{Treatment}_i$$
 
 Where:
-- \(Y_i\) = minimum acceptable salary (% of current salary)  
-- \(\text{Treatment}_i\) = indicator for four-day workweek  
-- \(\beta\) = causal effect of interest  
+- $Y_i$ = minimum acceptable salary (% of current salary)  
+- $\text{Treatment}_i$ = indicator for four-day workweek  
+- $\beta$ = causal effect of interest  
 
 Under random assignment, \(\beta\) consistently estimates the ATE without additional covariate adjustment.
 

@@ -1,4 +1,27 @@
 <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
+<script src="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css">
+<script src="https://cdn.jsdelivr.net/npm/marked@9.1.6/marked.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const content = document.querySelector('.page__content');
+    if (content) {
+      content.innerHTML = content.innerHTML.replace(/\\\[(.*?)\\\]/gs, function(match, p1) {
+        try {
+          return katex.renderToString(p1, {displayMode: true, throwOnError: false});
+        } catch(e) {
+          return match;
+        }
+      }).replace(/\\\((.*?)\\\)/gs, function(match, p1) {
+        try {
+          return katex.renderToString(p1, {displayMode: false, throwOnError: false});
+        } catch(e) {
+          return match;
+        }
+      });
+    }
+  });
+</script>
 <style>
   .home-button {
     position: fixed;
