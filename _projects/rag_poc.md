@@ -3,6 +3,7 @@ title: Designing and Evaluating a Retrieval-Augmented (RAG) System
 subtitle: Architecting a production-style GenAI retrieval pipeline with evaluation frameworks
 date: 2024-12-07
 tags: [GenAI, Retrieval-Augmented Generation, LLM Systems, Vector Search, Applied ML, Evaluation]
+thumbnail: /assets/images/projects/rag_poc.png
 ---
 
 [📄 Technical Report](/assets/files/rag_poc.pdf){: .btn .btn--primary }
