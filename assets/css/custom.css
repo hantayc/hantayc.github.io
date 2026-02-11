@@ -112,9 +112,9 @@ img[alt*="Taylor"] {
 .projects-item {
   display: grid;
   grid-template-columns: 84px 1fr;
-  gap: 16px;
+  gap: 12px;
   align-items: start;
-  padding: 14px 0;
+  padding: 10px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 }
 
@@ -133,12 +133,12 @@ img[alt*="Taylor"] {
 .projects-title a { text-decoration: none; font-weight: 600; }
 
 .projects-subtitle {
-  margin: 6px 0 0 0;
+  margin: 4px 0 0 0;
   opacity: 0.90;
 }
 
 .projects-tags {
-  margin: 10px 0 0 0;
+  margin: 6px 0 0 0;
   display: flex;
   flex-wrap: wrap;
   gap: 0.4rem;
