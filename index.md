@@ -7,7 +7,7 @@ header:
   show_title: false
 classes: home
 ---
-### Data Scientist · NLP / GenAI · Forecasting · Experimentation · Machine Learning · MLOps
+### Summary
 
 I’m a data scientist with an M.S. in Information and Data Science from UC Berkeley and over five years of experience making decisions with data across consulting and financial services. I began my career in pharmaceuticals, supporting four enterprise clients — including two Fortune 100 companies and a top-35 global pharmaceutical firm — before moving into digital, CX and operational analytics at AIG and later Corebridge Financial following the rebrand of its Individual Retirement and Life businesses.
 
