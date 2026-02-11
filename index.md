@@ -15,18 +15,37 @@ My work at Berkeley and professionally spans applied NLP & GenAI, time-series fo
 
 --- 
 
-### Skills
-<span class="badge badge--primary">RAG</span>
-<span class="badge badge--primary">Embeddings</span>
-<span class="badge badge--primary">Forecasting</span>
-<span class="badge badge--primary">Causal Inference</span>
-<span class="badge badge--primary">A/B Testing</span>
-<span class="badge badge--primary">FastAPI</span>
-<span class="badge badge--primary">Kubernetes</span>
-<span class="badge badge--primary">Redis</span>
-<span class="badge badge--primary">Python</span>
-<span class="badge badge--primary">SQL</span>
-<span class="badge badge--primary">Snowflake</span>
+### Technical Skills
+
+<div class="skills-container">
+  <div class="skill-category">
+    <h4>ML & AI</h4>
+    <code>LLMs</code>
+    <code>RAG</code>
+    <code>Embeddings</code>
+    <code>NLP</code>
+    <code>Forecasting</code>
+  </div>
+  
+  <div class="skill-category">
+    <h4>Data & Analytics</h4>
+    <code>Causal Inference</code>
+    <code>A/B Testing</code>
+    <code>SQL</code>
+    <code>Snowflake</code>
+    <code>Statistical Modeling</code>
+  </div>
+  
+  <div class="skill-category">
+    <h4>Engineering</h4>
+    <code>Python</code>
+    <code>FastAPI</code>
+    <code>Kubernetes</code>
+    <code>Docker</code>
+    <code>Redis</code>
+    <code>Git</code>
+  </div>
+</div>
 
 ---
 ### Featured Projects
