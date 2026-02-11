@@ -49,7 +49,3 @@ My work at Berkeley and professionally spans applied NLP & GenAI, time-series fo
   </li>
 {% endfor %}
 </ul>
-
-<p style="text-align: center; margin-top: 2rem;">
-  <a href="/projects/" class="btn btn--primary btn--large">View All Projects</a>
-</p>

@@ -30,7 +30,7 @@ author:
   bio: "NLP / GenAI · Forecasting · Experimentation · Data Science · Machine Learning · Python · R"
 
   links:
-    - label: "Projects"
+    - label: "All Projects"
       icon: "fas fa-folder-open"
       url: "/projects/"
 
