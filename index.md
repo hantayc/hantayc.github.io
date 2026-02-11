@@ -16,7 +16,7 @@ My work at Berkeley and professionally spans applied NLP & GenAI, time-series fo
 ---
 ### Featured Projects
 
-{% assign featured = site.projects | sort: "date" | reverse | slice: 0, 3 %}
+{% assign featured = site.projects | sort: "date" | reverse | slice: 0, 4 %}
 
 <ul class="projects-grid">
 {% for p in featured %}
@@ -49,3 +49,7 @@ My work at Berkeley and professionally spans applied NLP & GenAI, time-series fo
   </li>
 {% endfor %}
 </ul>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="/projects/" class="btn btn--primary btn--large">View All Projects</a>
+</p>
