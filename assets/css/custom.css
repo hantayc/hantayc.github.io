@@ -241,28 +241,28 @@ img[alt*="Taylor"] {
 }
 
 .author__skills-title {
-  font-size: 0.75rem;
+  font-size: 0.6rem;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: rgba(255, 255, 255, 0.6);
-  margin: 0 0 0.8rem 0;
+  margin: 0 0 0.4rem 0;
 }
 
 .author__skills-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.3rem;
+  gap: 0.15rem;
 }
 
 .author__skills-tags code {
   display: inline-block;
-  padding: 0.25rem 0.5rem;
-  font-size: 0.65rem;
+  padding: 0.1rem 0.3rem;
+  font-size: 0.5rem;
   font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
   background-color: rgba(157, 214, 216, 0.1);
   border: 1px solid rgba(157, 214, 216, 0.25);
-  border-radius: 3px;
+  border-radius: 2px;
   color: #9dd6d8;
 }
 
