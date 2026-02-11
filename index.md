@@ -13,6 +13,21 @@ I’m a data scientist with an M.S. in Information and Data Science from UC Berk
 
 My work at Berkeley and professionally spans applied NLP & GenAI, time-series forecasting, and causal experimentation — from problem framing and modeling to deployment and executive-level decision support. I’ve led initiatives that reversed double-digit CSAT declines, improved capacity planning through predictive forecasting, and delivered six-figure cost savings through automation.
 
+--- 
+
+### Skills
+<span class="badge badge--primary">RAG</span>
+<span class="badge badge--primary">Embeddings</span>
+<span class="badge badge--primary">Forecasting</span>
+<span class="badge badge--primary">Causal Inference</span>
+<span class="badge badge--primary">A/B Testing</span>
+<span class="badge badge--primary">FastAPI</span>
+<span class="badge badge--primary">Kubernetes</span>
+<span class="badge badge--primary">Redis</span>
+<span class="badge badge--primary">Python</span>
+<span class="badge badge--primary">SQL</span>
+<span class="badge badge--primary">Snowflake</span>
+
 ---
 ### Featured Projects
 

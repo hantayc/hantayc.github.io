@@ -27,15 +27,7 @@ minimal_mistakes_skin: "dark"
 author:
   name: "Taylor Han"
   avatar: "/assets/images/headshot.png"
-  bio: >
-    Data Scientist @ Corebridge Financial<br/>
-    UC Berkeley MIDS ’25<br/><br/>
-    <strong>Skills:</strong><br/>
-    NLP & GenAI (RAG, LLM Evaluation)<br/>
-    Time-Series Forecasting<br/>
-    Causal Inference & Experimentation<br/>
-    Machine Learning & Feature Engineering<br/>
-    ML Systems, FastAPI & Kubernetes
+  bio: "Data Scientist @ Corebridge Financial<br/>UC Berkeley MIDS '25"
 
   links:
     - label: "All Projects"
