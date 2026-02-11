@@ -27,7 +27,7 @@ minimal_mistakes_skin: "dark"
 author:
   name: "Taylor Han"
   avatar: "/assets/images/headshot.png"
-  bio: "Data Scientist @ Corebridge Financial<br/>UC Berkeley MIDS '25<br/><br/>NLP / GenAI · Forecasting · Experimentation"
+  bio: "Data Scientist @ Corebridge Financial<br/>UC Berkeley MIDS '25"
 
   links:
     - label: "All Projects"
