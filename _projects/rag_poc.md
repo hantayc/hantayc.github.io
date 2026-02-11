@@ -5,11 +5,8 @@ date: 2024-12-07
 tags: [GenAI, Retrieval-Augmented Generation, LLM Systems, Vector Search, Applied ML, Evaluation]
 ---
 
-- 📄 **Technical Report:**  
-  [Read the full evaluation and methodology (PDF)](/assets/files/rag_poc.pdf){: .btn .btn--primary}
-
-- 💻 **Source Code:**  
-  [View the RAG system implementation](https://github.com/hantayc/rag-poc)
+[📄 Technical Report](/assets/files/rag_poc.pdf){: .btn .btn--primary }
+[💻 Source Code](https://github.com/hantayc/rag-poc){: .btn .btn--info }
 
 ---
 
