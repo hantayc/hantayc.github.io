@@ -147,20 +147,24 @@ img[alt*="Taylor"] {
 /* Subtle tag styling */
 .projects-tags .badge {
   display: inline-block;
-  padding: 0.25rem 0.6rem;
-  border-radius: 4px;
-  background-color: rgba(157, 214, 216, 0.15);
-  border: 1px solid rgba(157, 214, 216, 0.3);
-  font-size: 0.65rem;
-  font-weight: 500;
-  color: #9dd6d8;
+  padding: 0;
+  border-radius: 0;
+  background-color: transparent;
+  border: none;
+  font-size: 0.55rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
   text-decoration: none;
-  opacity: 0.85;
+}
+
+.projects-tags .badge:not(:last-child)::after {
+  content: "·";
+  margin-left: 0.5rem;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .projects-tags .badge:hover {
-  background-color: rgba(157, 214, 216, 0.25);
-  opacity: 1;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 .projects-tags a {
