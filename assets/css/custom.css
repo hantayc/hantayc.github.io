@@ -141,7 +141,26 @@ img[alt*="Taylor"] {
   margin: 10px 0 0 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.6rem;
+  gap: 0.4rem;
+}
+
+/* Subtle tag styling */
+.projects-tags .badge {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 4px;
+  background-color: rgba(157, 214, 216, 0.15);
+  border: 1px solid rgba(157, 214, 216, 0.3);
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: #9dd6d8;
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+.projects-tags .badge:hover {
+  background-color: rgba(157, 214, 216, 0.25);
+  opacity: 1;
 }
 
 .projects-tags a {
