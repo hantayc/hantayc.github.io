@@ -232,3 +232,41 @@ img[alt*="Taylor"] {
   background-color: rgba(157, 214, 216, 0.15);
   border-color: rgba(157, 214, 216, 0.4);
 }
+
+/* Author profile skills styling */
+.author__skills {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.author__skills-title {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0 0 0.8rem 0;
+}
+
+.author__skills-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+
+.author__skills-tags code {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.65rem;
+  font-family: 'Monaco', 'Menlo', 'Consolas', monospace;
+  background-color: rgba(157, 214, 216, 0.1);
+  border: 1px solid rgba(157, 214, 216, 0.25);
+  border-radius: 3px;
+  color: #9dd6d8;
+}
+
+.author__skills-tags code:hover {
+  background-color: rgba(157, 214, 216, 0.15);
+  border-color: rgba(157, 214, 216, 0.4);
+}
