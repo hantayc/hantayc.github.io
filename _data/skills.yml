@@ -1,0 +1,18 @@
+# Skills grouped by category — rendered as chip groups on the homepage.
+- group: Languages & Data
+  items: [Python, SQL, R, Snowflake, Pandas, NumPy, Spark]
+
+- group: Machine Learning
+  items: [scikit-learn, PyTorch, TensorFlow, Feature Engineering, Time-Series Forecasting, Anomaly Detection, Classification, Darts]
+
+- group: NLP & GenAI
+  items: [NLP, LLMs, Generative AI, Retrieval-Augmented Generation, Fine-tuning, Embeddings]
+
+- group: Experimentation
+  items: [A/B Testing, Causal Inference, Experiment Design, Power Analysis]
+
+- group: ML Systems & MLOps
+  items: [FastAPI, Docker, Kubernetes, Redis, Model Deployment, Prometheus, Grafana]
+
+- group: Tooling
+  items: [Git, Poetry, PyTest, Power BI, Tableau, Data Visualization, ETL Pipelines]

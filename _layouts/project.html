@@ -1,31 +1,25 @@
 ---
 layout: default
 ---
-<article class="post">
-  <header>
-    <h1>{{ page.title }}</h1>
-    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+<article class="page-wrap">
+  <a class="back-link" href="{{ '/projects/' | relative_url }}"><i class="fas fa-arrow-left"></i> All projects</a>
 
-    {% if page.links %}
-      <p>
-        {% for item in page.links %}
-          <a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.label }}</a>
-          {% unless forloop.last %} · {% endunless %}
-        {% endfor %}
-      </p>
+  <header class="post-header">
+    {% if page.header.image %}
+      <img class="hero-banner" src="{{ page.header.image | relative_url }}" alt="{{ page.title }}">
     {% endif %}
-
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="subtitle">{{ page.subtitle }}</p>{% endif %}
     {% if page.tags %}
-      <p>
-        {% for tag in page.tags %}
-          <span style="border:1px solid #ddd; padding:2px 8px; border-radius:999px; margin-right:6px; font-size:12px;">{{ tag }}</span>
-        {% endfor %}
-      </p>
+      <div class="project-tags">
+        {% for tag in page.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+      </div>
     {% endif %}
   </header>
 
-  <hr/>
-  <div>
+  <hr class="post-divider">
+
+  <div class="post-content">
     {{ content }}
   </div>
 </article>

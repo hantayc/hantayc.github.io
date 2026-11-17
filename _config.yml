@@ -1,84 +1,82 @@
+# ---------------------------------------------------------------
 # Site basics
-title: ""
-masthead_title: ""
-description: Data Scientist • NLP/GenAI • Forecasting • Experimentation
+# ---------------------------------------------------------------
+title: "Taylor Han"
+tagline: "Data Scientist"
+description: "Taylor Han — Data Scientist specializing in NLP/GenAI, forecasting, and experimentation."
 
-# Required for proper link + asset resolution on GitHub Pages
-# This is a user site (not a project site), so baseurl stays empty
+# User site (not a project site), so baseurl stays empty
 url: "https://hantayc.github.io"
 baseurl: ""
 
-# Theme setup (Minimal Mistakes via remote theme)
-remote_theme: "mmistakes/minimal-mistakes"
+lang: en
+timezone: America/New_York
 
-# Plugins required by the theme
-plugins:
-  - jekyll-remote-theme
-  - jekyll-include-cache
-
-# Markdown processor
+# ---------------------------------------------------------------
+# Build settings
+# ---------------------------------------------------------------
 markdown: kramdown
+highlighter: rouge
+sass:
+  style: compressed
 
-# Theme appearance
-# Using dark for now — easy to swap later
-minimal_mistakes_skin: "dark"
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
-# Author info used in the sidebar / profile section
+# ---------------------------------------------------------------
+# Author / profile
+# ---------------------------------------------------------------
 author:
   name: "Taylor Han"
+  role: "Data Scientist — NLP/GenAI · Forecasting · Experimentation"
+  tagline: "I turn messy, real-world data into models and decisions — from applied NLP and GenAI to forecasting and causal experiments, shipped end to end."
+  location: "United States"
+  education: "M.S. Information & Data Science, UC Berkeley ’25"
   avatar: "/assets/images/headshot.png"
-  bio: "Data Scientist @ Corebridge Financial<br/>UC Berkeley MIDS '25"
+  stats:
+    - value: "5+ yrs"
+      label: "Data science in industry"
+    - value: "NLP · GenAI"
+      label: "Applied LLMs, RAG & forecasting"
+    - value: "6-figure"
+      label: "Cost savings via automation"
 
-  links:
-    - label: "All Projects"
-      icon: "fas fa-folder-open"
-      url: "/projects/"
-
-    - label: "Resume"
-      icon: "fas fa-file-alt"
-      url: "/assets/files/taylor_han_resume.pdf"
-
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/hantayc"
-
-    - label: "LinkedIn"
-      icon: "fab fa-linkedin"
-      url: "https://linkedin.com/in/taylor-han"
-
-    - label: "Email"
-      icon: "fas fa-envelope"
-      url: "mailto:hantaylorc@gmail.com"
-
-# Footer links (can add LinkedIn, resume, etc. later)
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/hantayc"
-
-# Custom content collections
-# Each project lives in _projects/ and renders as its own page
+# ---------------------------------------------------------------
+# Content collections
+# ---------------------------------------------------------------
 collections:
   projects:
     output: true
     permalink: /projects/:name/
 
-# Default layout behavior
+# ---------------------------------------------------------------
+# Defaults
+# ---------------------------------------------------------------
 defaults:
-  # Standard pages (home, resume, projects index, etc.)
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: single
-      author_profile: true
-
-  # Individual project pages
+      layout: page
+  # Keep the old single résumé file in the repo but out of the sitemap,
+  # so it isn't discoverable (role-specific résumés are shared directly).
+  - scope:
+      path: "assets/files/taylor_han_resume.pdf"
+    values:
+      sitemap: false
   - scope:
       path: ""
       type: "projects"
     values:
-      layout: single
-      author_profile: false
-      classes: wide
+      layout: project
+
+# ---------------------------------------------------------------
+# Exclude
+# ---------------------------------------------------------------
+exclude:
+  - README.md
+  - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor

@@ -1,0 +1,10 @@
+# Social / contact links used in hero, footer, and contact section
+- label: GitHub
+  icon: fab fa-github
+  url: https://github.com/hantayc
+- label: LinkedIn
+  icon: fab fa-linkedin
+  url: https://linkedin.com/in/taylor-han
+- label: Email
+  icon: fas fa-envelope
+  url: mailto:hantaylorc@gmail.com

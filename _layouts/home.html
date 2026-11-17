@@ -1,0 +1,152 @@
+---
+layout: default
+---
+
+<!-- ===================== HERO ===================== -->
+<section class="hero">
+  <div class="hero-text">
+    <p class="hero-eyebrow">Hi, I’m</p>
+    <h1>{{ site.author.name }}</h1>
+    <p class="hero-role"><span class="grad">{{ site.author.role }}</span></p>
+    <p class="hero-lede">{{ site.author.tagline }}</p>
+
+    <div class="hero-meta">
+      {% if site.author.location %}<span><i class="fas fa-location-dot"></i>{{ site.author.location }}</span>{% endif %}
+      <span><i class="fas fa-graduation-cap"></i>{{ site.author.education }}</span>
+    </div>
+
+    <div class="btn-row">
+      {% for s in site.data.socials %}
+        <a class="btn {% if forloop.first %}btn--primary{% endif %}" href="{{ s.url }}"{% if s.url contains 'http' %} target="_blank" rel="noopener"{% endif %}>
+          <i class="{{ s.icon }}"></i>{{ s.label }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="hero-portrait">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}">
+  </div>
+</section>
+
+<!-- ===================== ABOUT ===================== -->
+<section class="section" id="about">
+  <div class="section-head">
+    <span class="eyebrow">01</span>
+    <h2>About</h2>
+    <span class="rule"></span>
+  </div>
+
+  <div class="about-grid">
+    <div class="about-body">
+      {{ content }}
+    </div>
+    <div class="stat-stack">
+      {% for stat in site.author.stats %}
+        <div class="stat"><b>{{ stat.value }}</b><span>{{ stat.label }}</span></div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- ===================== EXPERIENCE ===================== -->
+<section class="section" id="experience">
+  <div class="section-head">
+    <span class="eyebrow">02</span>
+    <h2>Experience</h2>
+    <span class="rule"></span>
+  </div>
+
+  <div class="timeline">
+    {% for job in site.data.experience %}
+      <article class="xp">
+        <div class="xp-head">
+          <span class="xp-role">{{ job.role }}</span>
+          <span class="xp-company">· {{ job.company }}</span>
+          <span class="xp-dates">{{ job.dates }}</span>
+        </div>
+        {% if job.summary %}<p class="xp-summary">{{ job.summary }}</p>{% endif %}
+        {% if job.bullets %}
+          <ul>
+            {% for b in job.bullets %}<li>{{ b }}</li>{% endfor %}
+          </ul>
+        {% endif %}
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- ===================== SKILLS ===================== -->
+<section class="section" id="skills">
+  <div class="section-head">
+    <span class="eyebrow">03</span>
+    <h2>Skills</h2>
+    <span class="rule"></span>
+  </div>
+
+  <div class="skills-grid">
+    {% for cat in site.data.skills %}
+      <div class="skill-group">
+        <h3>{{ cat.group }}</h3>
+        <div class="chips">
+          {% for item in cat.items %}<span class="chip">{{ item }}</span>{% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+
+<!-- ===================== PROJECTS ===================== -->
+<section class="section" id="projects">
+  <div class="section-head">
+    <span class="eyebrow">04</span>
+    <h2>Featured Projects</h2>
+    <span class="rule"></span>
+  </div>
+
+  {% assign featured = site.projects | sort: "date" | reverse %}
+  <ul class="projects-grid">
+    {% for p in featured limit: 4 %}
+      <li class="project-card">
+        <a class="project-thumb" href="{{ p.url | relative_url }}">
+          {% if p.thumbnail %}
+            <img src="{{ p.thumbnail | relative_url }}" alt="{{ p.title }} thumbnail">
+          {% else %}
+            <span class="project-thumb-fallback" aria-hidden="true"></span>
+          {% endif %}
+        </a>
+        <div class="project-body">
+          <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+          {% if p.subtitle %}<p class="project-sub">{{ p.subtitle }}</p>{% endif %}
+          {% if p.tags %}
+            <div class="project-tags">
+              {% for tag in p.tags limit: 4 %}<span class="tag">{{ tag }}</span>{% endfor %}
+            </div>
+          {% endif %}
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% if site.projects.size > 4 %}
+    <div class="section-cta">
+      <a class="btn" href="{{ '/projects/' | relative_url }}">View all projects <i class="fas fa-arrow-right"></i></a>
+    </div>
+  {% endif %}
+</section>
+
+<!-- ===================== CONTACT ===================== -->
+<section class="section" id="contact">
+  <div class="contact">
+    <span class="eyebrow">05 — Contact</span>
+    <h2>Let’s build something with data.</h2>
+    <p>Open to data science roles and collaborations. The fastest way to reach me is email — happy to share a role-specific résumé on request.</p>
+    <div class="btn-row">
+      {% for s in site.data.socials %}
+        <a class="btn {% if s.label == 'Email' %}btn--primary{% endif %}" href="{{ s.url }}"{% if s.url contains 'http' %} target="_blank" rel="noopener"{% endif %}>
+          <i class="{{ s.icon }}"></i>{{ s.label }}
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

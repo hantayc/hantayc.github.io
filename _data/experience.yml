@@ -1,11 +1,47 @@
+# Work experience — rendered as a timeline on the homepage.
+
 - company: Corebridge Financial
-  title: Data Scientist
-  dates: 2022 – Present
+  role: Data Scientist
+  dates: 2025 – Present
+  summary: >
+    Digital, customer-experience, and operational analytics for the Individual
+    Retirement and Life businesses following their spin-off from AIG.
   bullets:
-    - Automated recurring reporting workflows across SQL, Python, and Power BI, reducing manual effort.
-    - Built forecasting models for operational demand and capacity planning.
-- company: (Your prior company)
-  title: Associate Consultant
-  dates: 2020 – 2022
+    - Leading development of a Producer Lifetime Value (PLV) model to quantify the long-term value of distribution producers; currently in the data-engineering phase, profiling source tables across the data lake and running an unsupervised Isolation Forest to surface anomalies.
+    - Found that unmodeled segments — notably direct marketers — were skewing the producer distribution, and built a direct-marketer classifier to capture the missing signal and improve the data feeding the model.
+    - Reversed double-digit CSAT declines with analytics-driven customer-experience initiatives.
+    - Built time-series forecasting models that sharpened workforce and capacity planning.
+    - Delivered six-figure cost savings by automating recurring reporting and operational workflows.
+
+- company: AIG
+  role: Digital Data Scientist
+  dates: 2021 – 2025
+  summary: >
+    Digital analytics for the customer web platform within the Individual
+    Retirement and Life organization.
   bullets:
-    - Worked with large-scale datasets and validation pipelines.
+    - Built end-to-end digital analytics reporting on self-service metrics — organic and financial-aggregator logins — for the policyholder web platform.
+    - Engineered an R pipeline that parsed unstructured home-office work notes to reconstruct the full lifecycle of web-initiated withdrawals, using keyword proxies to infer final request status where no system-level data linkage existed.
+    - That proxy served as the source of truth for ~2 years, monitoring the success of a $1M initiative to expand digital self-service tools for policyholders.
+    - Explored and wrangled trade and transaction data to monitor the options available to customers, building proxies to fill gaps where data was unavailable.
+
+- company: Beghou Consulting
+  role: Associate Consultant
+  dates: 2020 – 2021
+  summary: >
+    Sales-operations and commercial analytics for pharmaceutical clients,
+    including Bristol Myers Squibb, Eisai, and Jazz Pharmaceuticals.
+  bullets:
+    - Ran territory realignment in the in-house Meridian Suite platform, mapping sales-representative territories while balancing travel distance against account density.
+    - Built an incentive-compensation dashboard for Eisai in Tableau.
+
+- company: Gallagher
+  role: Special Projects Intern
+  dates: Summer 2019
+  summary: >
+    12-week internship on the special-projects team at a global insurance
+    brokerage firm.
+  bullets:
+    - Built a regression model quantifying the relationship between shared-revenue contracts — where agents co-write an account together — and overall company revenue, showing that shared deals drove more revenue for the firm.
+    - Presented the findings directly to the firm's CFO.
+    - Helped the accounting team develop complex Excel formulas to streamline their financial workflows.
